@@ -46,8 +46,8 @@ This is a Two-Dimension array. Here N is no. of rows and M is no. of Columns.
 ### Scala ArrayBuffer
 
 Array in scala is homogeneous and mutable, i.e it contains elements of the same data type and its elements can change
-but the size of array size can’t change. To create a mutable, indexed sequence whose size can change ArrayBuffer class
-is used. To use, ArrayBuffer, scala.collection.mutable.ArrayBuffer class is imported, an instance of ArrayBuffer is
+but the size of array size can’t change. To create a mutable, indexed sequence whose size can change **ArrayBuffer** class
+is used. To use, ArrayBuffer, **scala.collection.mutable.ArrayBuffer** class is imported, an instance of ArrayBuffer is
 created.<br>
 Internally, an ArrayBuffer is an Array of elements, as well as the store’s current size of the array. When an element is
 added to an ArrayBuffer, this size is checked. If the underlying array isn’t full, then the element is directly added to

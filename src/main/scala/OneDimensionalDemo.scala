@@ -84,4 +84,28 @@ class OneDimensionalDemo {
     for (x <- arr3) println(x)
   }
 
+  def concatenatingArrays(): Unit = {
+    val arr1 = Array(10, 20)
+    val arr2 = Array(30, 40)
+    val result = arr1 ++ arr2
+    println(result.mkString(", "))
+  }
+
+  def accessingModifyingElement(): Unit = {
+    val arr = Array(10, 20, 30, 40)
+    println("- Accessing example: " + arr(2)) // Output: 30
+    arr(0) = 50 // changing the first element
+    println("- Modifying example: " + arr.mkString(", ")) // Output: 50, 20, 30, 40
+  }
+
+  def iteratingDemo(): Unit = {
+    val arr = Array(1, 2, 3, 4, 5)
+    // Using for loop
+    println("- Using for loop: ")
+    for (elem <- arr) println(elem)
+    // Using foreach() method
+    println("- Using foreach() method: ")
+    arr.foreach(println)
+  }
+
 }
